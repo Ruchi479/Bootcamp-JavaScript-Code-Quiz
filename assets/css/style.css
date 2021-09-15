@@ -1,0 +1,290 @@
+/* html and body css styling */
+html {
+    height: 100%;
+}
+  
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif,
+      sans-serif;
+    color: #202020;    
+    box-sizing: border-box;
+    margin: 0; 
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+/* Menu Bar css styling*/
+.navbar{
+    background-color: #f8f9fa;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand{
+    display:inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    color: rgba(0,0,0,0.9);
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+ul{
+    margin-top: 0;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+li{
+   display: list-item;
+   text-align: -webkit-match-parent; 
+    ;
+}
+.navbar-nav .nav-link{
+    color:rgba(0,0,0,0.5);
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-link:hover{
+    color:rgba(0,0,0,0.7);
+}
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+}
+  
+  /*Headings & font text style*/
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+  
+  /*Icons*/
+.fas {
+    margin-right: 10px;
+}
+  
+  /*anchor tag style*/
+a {
+    color: #88115b;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+  
+a:hover, 
+a:focus, 
+a:active{
+color: #88115b;
+}
+  
+/*Button CSS style*/
+button,
+.back-button {
+    background-color: #1da3dd;
+    border-radius: 100px;
+    color:#fff;
+    width:100%;
+    display:inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 25px;
+    text-decoration: none;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.back-button:hover, 
+.back-button:focus, 
+.back-button:active,
+button:hover, 
+button:focus, 
+button:active{
+    background-color: maroon;
+    color: white;
+}
+  
+.back-button {
+    margin-left: 0;
+}
+  
+  
+.hidden {
+    display: none;
+}
+  
+ 
+nav {
+    padding: 15px;
+    border-bottom: 1px solid #CECECE;
+}
+  
+ /*section area style*/
+main {
+    display: flex;
+    flex-direction: column;
+  
+    width: 80%;
+    margin: auto;
+    height: 75%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+  
+ 
+#start {
+   text-align: center;
+}
+  
+ /*quiz questions style*/
+#question {
+    font-size: 1.4em;
+}
+  
+#timer, 
+.choice-status {
+    text-align: center;
+}
+  
+#timer {
+    border-bottom: 1px solid #CECECE;
+    padding-bottom: 15px;  
+    font-size: 1.35em;
+    font-weight: bold;
+    border-radius: 100px;
+    padding:10px 15px;
+    border: 1px solid #444;
+}
+  
+ #time-remaining{
+    color: red;
+}
+  
+#choices {
+    list-style: none;
+    padding-left: 0;
+}
+  
+#choices button {
+    margin-left: 0;
+}
+  
+.choice-status {
+    font-size: 1.35em;
+    font-weight: bold;
+}
+  
+#correct {
+   color:  #88115b;
+}
+  
+#wrong {
+    color: #E81648;
+}
+  
+/*gray line before choice status*/
+#quiz-questions, 
+#end {
+    border-bottom: 1px solid #CECECE;
+    padding-bottom: 15px;
+}
+  
+/*End area style*/
+#score-text {
+    font-size: 1.2em;
+}
+  
+#score {
+    font-weight: bold;
+    color: #88115b;
+}
+  
+/*form style*/
+#submit-score {
+    margin-bottom: 10px;
+}
+  
+#submit-score label {
+    display: block;
+    
+}
+  
+#initials {
+    padding: 3px;
+    font-size: 1em;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.error {
+    border: 1.5px solid red;
+}
+  
+#error-message {
+    color: red;
+    margin-top: 5px;
+}
+  
+/*highscore style*/
+  table {
+    border-spacing: 0 0.5em;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #EBEBEB;
+  }
+  
+  td, th {
+    padding: 10px;
+  }
+  
+  th {
+    border-bottom: 1px solid #CECECE;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  th:first-child,
+  td:first-child {
+    text-align: left;
+  }
+  
+  th:last-child,
+  td:last-child  {
+    text-align: right;
+  }
+  
+  #highscore-buttons {
+    margin-bottom: 50px;
+  }
+  
+/*****Breakpoints*****/
+@media only screen and (min-width: 992px) {
+    main {
+      width: 60%;
+   }
+}
+  
+@media only screen and (min-width: 1200px) {
+    main {
+      width: 40%;
+   }
+}

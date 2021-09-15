@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighScores</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Highscore Area-->
+    <!-- Navbar Area -->
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="index.html">Coding Quiz</a>
+            <ul class="navbar-nav"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="highscores.html">High Scores</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Highscores</h1>
+        <table id="highscores-table">
+            <tr>
+                <th>Rank</th>
+                <th>Score</th>
+                <th>Initials</th>
+            </tr>
+        </table>
+        <div id="highscore-buttons">
+            <a href="index.html" class="back-button"><i class="fas fa-angle-left" aria-hidden="true"></i>Go back</a>
+            <button id="clear-highscores">Clear highscores</button>
+        </div>
+    </main>
+  
+    <script src="assets/js/highscores.js"></script>
+</body>
+</html>
