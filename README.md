@@ -22,9 +22,9 @@ Screenshots:
 i have saved the application functionality in 3 screenshots form which you can found in following location /assets/img/ folder.
 
 
-* [screenshots](./assets/img/Img1.jpg)
-* [screenshots](./assets/img/Img2.jpg)
-[screenshots](./assets/img/Img3.jpg)
+* ![screenshots](./assets/img/Img1.jpg)
+* ![screenshots](./assets/img/Img2.jpg)
+* ![screenshots](./assets/img/Img3.jpg)
 
 * [The URL of the GitHub repository](https://github.com/Ruchi479/Bootcamp-JavaScript-Code-Quiz.git)
 * [The URL of my deployed application](https://ruchi479.github.io/Bootcamp-JavaScript-Code-Quiz/)
